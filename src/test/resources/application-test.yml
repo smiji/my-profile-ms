@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      database: testdb
+
+
+app:
+  json-path-countries : src/test/resources/data/countries.json
+  json-path-cities : src/test/resources/data/cities.json

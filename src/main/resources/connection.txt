@@ -1,0 +1,5 @@
+db.createUser({
+  user: "profile",
+  pwd: "profile123",
+  roles: [{ role: "readWrite", db: "my-profile" }]
+})

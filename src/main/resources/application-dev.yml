@@ -1,0 +1,8 @@
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://profile:profile123@localhost:27017/my-profile
+app:
+  json-path-countries : src/main/resources/data/countries.json
+  json-path-cities : src/main/resources/data/cities.json

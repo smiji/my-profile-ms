@@ -7,6 +7,14 @@
     <groupId>com.home.subms</groupId>
     <artifactId>my-profile-ms</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>user-module</module>
+        <module>profile-module</module>
+        <module>job-module</module>
+        <module>resume-module</module>
+    </modules>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -22,7 +30,6 @@
     </properties>
 
     <dependencies>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
